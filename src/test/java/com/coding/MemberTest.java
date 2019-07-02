@@ -11,6 +11,7 @@ public class MemberTest {
         Member member = new Member();
         member.recharge(56);
         assertEquals(60,member.getPoint());
+
     }
 }
 
