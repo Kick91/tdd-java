@@ -12,5 +12,11 @@ public class MemberTest {
         member.recharge(56);
         assertEquals(60,member.getPoint());
     }
+    @Test
+    public void  should_increase_90_point_when_recharge_68_yuan() {
+    	Member member=new Member();
+    	member.recharge(68);
+        assertEquals(90,member.getPoint());	
+    }
 }
 
